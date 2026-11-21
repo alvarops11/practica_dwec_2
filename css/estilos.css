@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243342; background: #f2f5f8; line-height: 1.5; }
+header { background: #203b53; color: white; padding: 2rem max(1rem, calc((100% - 1100px) / 2)); }
+h1 { margin: .5rem 0; font-size: 2rem; }
+h2 { margin-top: 0; color: #203b53; }
+h3 { margin-top: 0; }
+main { max-width: 1132px; margin: auto; padding: 1rem; }
+section { background: white; padding: 1.5rem; margin: 1rem 0; border: 1px solid #d4dde5; border-radius: 6px; }
+.filtros { display: flex; flex-wrap: wrap; gap: 1rem; }
+.filtros > div { flex: 1; min-width: 180px; }
+.catalogo { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.tarjeta, .linea, details { border: 1px solid #cdd7df; border-radius: 4px; padding: 1rem; }
+.tarjeta { background: #fafcfd; }
+.agotado { color: #8c2525; font-weight: bold; }
+.linea, details { margin-bottom: .8rem; }
+label { display: block; margin-top: .8rem; margin-bottom: .25rem; font-weight: bold; }
+input:not([type="radio"]):not([type="checkbox"]), select, textarea { width: 100%; padding: .65rem; border: 1px solid #8797a5; border-radius: 4px; font: inherit; background: white; color: inherit; }
+textarea { resize: vertical; }
+form { max-width: 700px; }
+fieldset { margin: 1rem 0; border: 1px solid #b5c2cd; }
+legend { font-weight: bold; }
+.opcion { font-weight: normal; }
+button { padding: .65rem 1rem; border: 0; border-radius: 4px; background: #245c83; color: white; font: inherit; cursor: pointer; margin-top: .7rem; }
+button:hover { background: #174565; }
+button:disabled { background: #657580; cursor: not-allowed; }
+:focus-visible { outline: 3px solid #b26b00; outline-offset: 3px; }
+.error { display: block; color: #a02020; min-height: 1.4em; }
+[aria-invalid="true"] { border-color: #a02020 !important; }
+.resumen { padding: .8rem; background: #eef4f8; font-weight: bold; }
+summary { cursor: pointer; font-weight: bold; overflow-wrap: anywhere; }
+footer { text-align: center; padding: 1rem; }
+#filtro-historial { max-width: 280px; }
+#json-historial { font-family: monospace; }
+@media (max-width: 800px) { .catalogo { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .catalogo { grid-template-columns: 1fr; } section { padding: 1rem; } h1 { font-size: 1.6rem; } }
