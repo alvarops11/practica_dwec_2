@@ -108,6 +108,4 @@ Esta implementación se ha generado con ayuda de IA a petición del usuario. El 
 
 [Conversación compartida aportada por el autor](https://chatgpt.com/share/6b01f3e7-2134-83ed-a251-c5afe6456144).
 
-**Pendiente del autor antes de entregar:** comprobar que el enlace permite consultar la conversación y que se incluyen las conversaciones utilizadas, incluida la de desarrollo; revisar el código y explicar sus decisiones propias. No se ha podido verificar el contenido del chat compartido desde la herramienta de consulta. El registro resumido no sustituye las conversaciones. El enunciado establece condiciones específicas sobre el uso de IA que el autor debe revisar.
-
-Repositorio de entrega: [alvarops11/practica_dwec_2](https://github.com/alvarops11/practica_dwec_2). Comprobar que el profesor tiene acceso al repositorio. Según el enunciado, el último commit entregado debe ser anterior al **22/11/2026 a las 15:59, hora peninsular española**.
+Repositorio de entrega: [alvarops11/practica_dwec_2](https://github.com/alvarops11/practica_dwec_2).
